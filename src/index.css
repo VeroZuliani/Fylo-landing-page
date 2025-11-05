@@ -16,7 +16,7 @@
   src: url("/src/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format("woff2");
 }
 
-:root{
+@theme{
   --color-Navy-850: hsl(217, 28%, 15%);
   --color-Navy-900: hsl(218, 28%, 13%);
   --color-Navy-950: hsl(216, 53%, 9%);

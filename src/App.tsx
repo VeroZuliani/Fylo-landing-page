@@ -1,14 +1,21 @@
 import './App.css'
 import { Header } from './components/header'
+import { Hero } from './components/hero'
 
 function App() {
 
   return (
     <main className='w-[375px] m-auto border border-White'>
-      <section className='h-[420px]'>
+      
+      <section className='h-[420px] bg-Navy-850 p-6 relative'>
         <Header/>
+        <img className="relative z-1 mt-8" src="/images/illustration-intro.png" alt="illustration intro" />
+        <img className="absolute bottom-0 left-0" src="/images/bg-curvy-mobile.svg" alt="curvy mobile" />
       </section>
       
+      <section className='bg-Navy-900'>
+        <Hero/>
+      </section>
 
 
     </main>
