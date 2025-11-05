@@ -1,11 +1,17 @@
 import './App.css'
+import { Header } from './components/header'
 
 function App() {
 
   return (
-    <>
-      Code
-    </>
+    <main className='w-[375px] m-auto border border-White'>
+      <section className='h-[420px]'>
+        <Header/>
+      </section>
+      
+
+
+    </main>
   )
 }
 
