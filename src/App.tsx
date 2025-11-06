@@ -3,6 +3,7 @@ import { Features } from './components/features'
 import { Header } from './components/header'
 import { Hero } from './components/hero'
 import { Productive } from './components/productive'
+import { Testimonials } from './components/testimonials'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Hero/>
         <Features/>
         <Productive/>
+        <Testimonials/>
       </section>
 
 
