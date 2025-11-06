@@ -2,6 +2,7 @@ import './App.css'
 import { Features } from './components/features'
 import { Header } from './components/header'
 import { Hero } from './components/hero'
+import { Productive } from './components/productive'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <section className='bg-Navy-900'>
         <Hero/>
         <Features/>
+        <Productive/>
       </section>
 
 
