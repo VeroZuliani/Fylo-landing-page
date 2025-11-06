@@ -1,4 +1,5 @@
 import './App.css'
+import { Features } from './components/features'
 import { Header } from './components/header'
 import { Hero } from './components/hero'
 
@@ -15,6 +16,7 @@ function App() {
       
       <section className='bg-Navy-900'>
         <Hero/>
+        <Features/>
       </section>
 
 
