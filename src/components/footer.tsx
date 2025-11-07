@@ -1,6 +1,6 @@
 import { Contact } from "./contact"
+import { FooterIconMedia } from "./footer-icon-media"
 import { FooterListItem } from "./footer-list-item"
-
 
 const listItem: string[] = [
     "About Us",
@@ -18,7 +18,7 @@ const condition: string[] = [
 
 export const Footer = () => {
   return (
-    <div className="pt-[300px]">
+    <footer className="pt-[300px] pb-10">
         <img className="px-6 mb-10" src="/images/logo.svg" alt="logo" />
 
         <Contact/>
@@ -40,8 +40,9 @@ export const Footer = () => {
                 }
             </ul>
         </div>
-        
 
-    </div>
+        <FooterIconMedia/>        
+
+    </footer>
   )
 }
