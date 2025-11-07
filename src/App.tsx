@@ -1,5 +1,6 @@
 import './App.css'
 import { Features } from './components/features'
+import { Footer } from './components/footer'
 import { Forms } from './components/forms'
 import { Header } from './components/header'
 import { Hero } from './components/hero'
@@ -26,6 +27,7 @@ function App() {
 
       <section className='bg-Navy-950 relative'>
         <Forms/>
+        <Footer/>
       </section>
 
 
