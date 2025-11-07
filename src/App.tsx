@@ -1,5 +1,6 @@
 import './App.css'
 import { Features } from './components/features'
+import { Forms } from './components/forms'
 import { Header } from './components/header'
 import { Hero } from './components/hero'
 import { Productive } from './components/productive'
@@ -21,6 +22,10 @@ function App() {
         <Features/>
         <Productive/>
         <Testimonials/>
+      </section>
+
+      <section className='bg-Navy-950 relative'>
+        <Forms/>
       </section>
 
 

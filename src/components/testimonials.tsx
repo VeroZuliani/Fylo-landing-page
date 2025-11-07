@@ -30,7 +30,7 @@ const testimonials : Testimonials[] = [
 
 export const Testimonials = () => {
   return (
-    <div className="mt-[140px] relative">
+    <div className="mt-[140px] relative pb-80">
         <img className="w-6 absolute -top-5 left-7" src="/images/bg-quotes.png" alt="quotes" />
         {
             testimonials.map(({descripcion, img, name, role} : Testimonials) => (
