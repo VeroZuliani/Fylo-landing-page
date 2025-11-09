@@ -31,13 +31,13 @@ const testimonials : Testimonials[] = [
 export const Testimonials = () => {
   return (
     <div className="mt-[140px] relative pb-80">
-        <img className="w-6 absolute -top-5 left-7" src="/images/bg-quotes.png" alt="quotes" />
+        <img className="w-6 absolute -top-5 left-8" src="/images/bg-quotes.png" alt="quotes" />
         {
             testimonials.map(({descripcion, img, name, role} : Testimonials) => (
-                <div className="my-10 bg-Navy-800 rounded-sm mx-6 py-6" >
+                <div className="my-10 bg-Navy-800 rounded-sm mx-7 py-6" >
                     
-                    <p className="text-xs px-6 mb-4">{descripcion}</p>
-
+                    <p className=" text-xs px-6 mb-4">{descripcion}</p>
+                    
                     <div className="flex gap-2 px-6">
                         <img className="rounded-full size-8" src={img} alt="" />
                         <div>

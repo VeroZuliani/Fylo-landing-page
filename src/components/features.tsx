@@ -33,7 +33,7 @@ export const Features = () => {
     <div className="flex flex-col gap-20 mt-[140px]">
         {
             features.map(({img, title, descripcion}: Features) =>(
-                <div className="flex flex-col items-center text-center">
+                <div className="flex flex-col items-center text-center px-6">
                     <img src={img} alt={title} />
                     <div>
                         <h3 className="font-Raleway font-bold mb-2 mt-8">{title}</h3>

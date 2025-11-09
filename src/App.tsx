@@ -10,7 +10,7 @@ import { Testimonials } from './components/testimonials'
 function App() {
 
   return (
-    <main className='w-[375px] m-auto border border-White'>
+    <main className='w-[375px] m-auto'>
       
       <section className='h-[420px] bg-Navy-850 p-6 relative'>
         <Header/>
