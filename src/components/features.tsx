@@ -30,7 +30,7 @@ const features : Features[] = [
 
 export const Features = () => {
   return (
-    <div className="flex flex-col gap-20 mt-[140px]">
+    <div className="grid grid-cols-1 gap-20 mt-[140px] md:grid-cols-2 max-w-[960px] mx-auto">
         {
             features.map(({img, title, descripcion}: Features) =>(
                 <div className="flex flex-col items-center text-center px-6">

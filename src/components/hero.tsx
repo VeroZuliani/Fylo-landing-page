@@ -3,7 +3,7 @@ import { Button } from "./button"
 
 export const Hero = () => {
   return (
-    <section className="-mt-17 relative z-1">
+    <section className="-mt-17 relative z-1 md:-mt-40 md:max-w-[500px] md:mx-auto">
 
       <div className="text-center">
         <h1 className="font-semibold text-2xl font-Raleway px-8">All your files in one secure location, accessible anywhere.</h1>

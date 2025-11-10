@@ -13,7 +13,7 @@ const iconMedia: IconMedia[] = [
         alt: "icon twitter",
     },
     {
-        icon: "/public/images/instagram-brands-solid.svg",
+        icon: "/images/instagram-brands-solid.svg",
         alt: "icon instagram",
     },
 ]
@@ -21,7 +21,7 @@ const iconMedia: IconMedia[] = [
 export const FooterIconMedia = () => {
   return (
 
-    <div className="flex justify-center gap-4 mt-10">
+    <div className="flex justify-center gap-4 mt-10 md:pt-1 xl:m-0">
         {
             iconMedia.map(({icon, alt} : IconMedia) => (
                 
