@@ -35,6 +35,6 @@ npm run dev
 ## Despliegue 🚀
 Puedes ver la versión desplegada del proyecto aquí:
 ```
- colocar pagina desplegada
+ https://fylo-landing-page-7haany6vn-verozulianis-projects.vercel.app/
 ```
 
