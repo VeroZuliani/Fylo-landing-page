@@ -3,9 +3,7 @@
 Landing Page, inspirado en un Challenge de Frontend Mentor.
 Cuyo diseño se adapta en pantallas mobile(375px), tablet(768px) y desktop(1440px).
 
-<p align="center">
-  ![Mobile Screenshots](screenshots/Mobile-Screenshots.jpeg) 
-</p>
+  ![Mobile-Screenshots](screenshots/Mobile-Screenshots.jpeg) 
 
 
 ## Construido con 🛠️
