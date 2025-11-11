@@ -35,7 +35,7 @@ export const Testimonials = () => {
             <img className="w-6 absolute -top-5 left-8 xl:w-10 xl:left-1 xl:-top-6" src="/images/bg-quotes.png" alt="quotes" />
             {
                 testimonials.map(({descripcion, img, name, role} : Testimonials) => (
-                    <div className="mb-10 bg-Navy-800 rounded-sm mx-7 py-6 xl:mx-3 xl:z-1" >
+                    <div key={name} className="mb-10 bg-Navy-800 rounded-sm mx-7 py-6 xl:mx-3 xl:z-1" >
                         
                         <p className=" text-xs px-6 mb-4">{descripcion}</p>
                         

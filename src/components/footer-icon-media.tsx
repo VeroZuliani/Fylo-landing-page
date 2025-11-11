@@ -25,7 +25,7 @@ export const FooterIconMedia = () => {
         {
             iconMedia.map(({icon, alt} : IconMedia) => (
                 
-                <div className="flex size-10 border rounded-full p-1 justify-center items-center hover:text-teal-200 cursor-pointer">
+                <div key={alt} className="flex size-10 border rounded-full p-1 justify-center items-center hover:text-teal-200 cursor-pointer">
                     <img className="size-[18px]" src={icon} alt={alt} />
                 </div>
 
