@@ -22,7 +22,7 @@ const features : Features[] = [
         descripcion:"Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.",
     },
     {
-        img:"/public/images/icon-any-file.svg",
+        img:"/images/icon-any-file.svg",
         title:"Store any type of file",
         descripcion:"Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.",
     },
